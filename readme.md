@@ -6,8 +6,9 @@ This script uses OpenAI's whisper model to convert your audio files into plain
 text, printing the transcript to stdout.
 
 I use this script with audio files from Apple's Voice Memos app. You can gain
-access to the `m4a` files by dragging the panel (the contains the voice memo
-title) for a specific voice memo into Finder.
+access to the `m4a` files by opening the non-mobile version of the app and
+dragging the panel for your voice note (the panel
+that contains the voice memo title, on the left side) into Finder.
 
 This script assumes you have an OpenAI API key, and that you've been kind enough
 to place that key in your `OPENAI_API_KEY` environment variable.
